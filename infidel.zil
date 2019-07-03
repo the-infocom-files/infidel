@@ -3,71 +3,29 @@
 	(c) Copyright 1983 Infocom, Inc.  All Rights Reserved.
 "
 
-;<SNAME "INFIDEL">
+<CONSTANT RELEASEID 1> <VERSION ZIP>
 
-<GC-MON <>>
-;<COND (<GASSIGNED? ZILCH> <GC 0 T>)
-      (T <GC 0 T 5>)>
-<GC 0 T 5>
+<INSERT-FILE "crufty">
 
-<BLOAT 90000 0 0 3500 0 0 0 0 0 512>
+<INSERT-FILE "clock" T>
+<INSERT-FILE "macros" T>
+<INSERT-FILE "main" T>
+<INSERT-FILE "parser" T>
 
-;<SETG SHORT-STRINGS 2>
-
-<SET REDEFINE T>
+<INSERT-FILE "globals" T>
+<INSERT-FILE "syntax" T>
+<INSERT-FILE "verbs" T>
 
 <GLOBAL BIGFIX 10000>
-
-<OR <GASSIGNED? ZILCH>
-    <SETG WBREAKS <STRING !\" !\= !,WBREAKS>>>
-
-<OR <GASSIGNED? INSERT-CRUFTY>
-    <DEFINE INSERT-CRUFTY (STR) <IFILE .STR T>>>
-
-<DEFINE IFILE (STR "OPTIONAL" (FLOAD? <>) "AUX" (TIM <TIME>))
-	<INSERT-FILE .STR .FLOAD?>>
-
-<PRINC "INFIDEL: Interlogic Adventure Fiction
-">
-
-<COND (<GASSIGNED? PREDGEN>
-       <ID 0>)>
-
-<IFILE "MACROS" T>
-
-<IFILE "GLOBALS" T>
 <PROPDEF SIZE 5>
 <PROPDEF CAPACITY 0>
 <PROPDEF VALUE 0>
 
-<IFILE "SYNTAX" T>
-<ENDLOAD>
-
-<IFILE "CLOCK" T>
-<IFILE "MAIN" T>
-<IFILE "PARSER" T>
-<INSERT-CRUFTY "CRUFTY">
-<IFILE "VERBS" T>
-
-
-
-;"MIKE: Add your files here, as with ROBOTS"
-
-<IFILE "INTERRUPTS" T>
-<IFILE "RA" T>
-<IFILE "ANTE" T>
-<IFILE "DIAMOND" T>
-<IFILE "BARGE" T>
-<IFILE "CUBE" T>
-<IFILE "CAMP" T>
-<IFILE "TEMPLE" T>
-
-<PRINC "INFIDEL: Interlogic Adventure Fiction
-
-
-
-
-
-
-
-Get ready!">
+<INSERT-FILE "ante" T>
+<INSERT-FILE "barge" T>
+<INSERT-FILE "camp" T>
+<INSERT-FILE "cube" T>
+<INSERT-FILE "diamond" T>
+<INSERT-FILE "interrupts" T>
+<INSERT-FILE "ra" T>
+<INSERT-FILE "temple" T>

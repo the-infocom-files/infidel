@@ -57,7 +57,7 @@
 		<TELL "I see nothing special about the "
 		      D ,PRSO "." CR>)>>
 
-<GLOBAL LIT <>>
+;<GLOBAL LIT <>>
 
 <ROUTINE DESCRIBE-ROOM ("OPTIONAL" (LOOK? <>) "AUX" V? STR AV)
 	 <SET V? <OR .LOOK? ,VERBOSE>>
@@ -204,8 +204,8 @@ long description (fdesc or ldesc), otherwise will print short."
 
 "SUBTITLE SCORING"
 
-<GLOBAL MOVES 0>
-<GLOBAL SCORE 0>
+;<GLOBAL MOVES 0>
+;<GLOBAL SCORE 0>
 <GLOBAL BASE-SCORE 0>
 
 <GLOBAL WON-FLAG <>>
@@ -454,7 +454,7 @@ wisdom, tempered by experience." CR>)>
 	 <COND (<FIRST? ,WINNER> <PRINT-CONT ,WINNER>)
 	       (T <TELL "You are empty-handed." CR>)>>
 
-<GLOBAL INDENTS
+;<GLOBAL INDENTS
 	<TABLE ""
 	       "  "
 	       "    "
