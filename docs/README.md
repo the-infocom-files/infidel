@@ -12,7 +12,7 @@ Further information on Infidel:
 * [The Infocom Gallery](http://gallery.guetech.org/infidel/infidel.html)
 * [IFWiki](http://www.ifwiki.org/index.php/Infidel)
 
-The following source material is available for importation. Release 29 was selected from the Zarf Sources.
+The following source material is available for importation. Release 22 (mac) was selected from the Zarf Sources.
 
 ## Historical Releases
 
