@@ -20,6 +20,8 @@ The following sources provide further information on Infidel:
 
 ## Version History
 
+Zarf's Obsessively Complete Infocom Catalog holds copies of the game files for every existing version of Infidel listed in the Infocom Fact Sheet. It also holds the source files for versions 22/830916, 22/840522 and a later, in progress, version.
+
 | Release | Serial | Story File                   | Zarf Sources                  | Historical Sources |
 | -------:|:------:|:----------------------------:|:-----------------------------:|:------------------:|
 |      22 | 830916 |     [infidel-r22-s830916.z3] |     [infidel-r22-s830916.zip] |      [revision 22] |
