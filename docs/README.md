@@ -1,10 +1,10 @@
-*This page is currently under construction. Last updated July 3, 2019 by Alex Proudfoot.*
+# Infidel
 
-----
+## The Game
 
-Infidel was Infocom's 10th IF game and was first released in 1983.
+Infidel is a 1983 interactive fiction game written by Patricia Fogleman and Michael Berlyn and published by Infocom.
 
-Further information on Infidel:
+The following sources provide further information on Infidel:
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Infidel_(video_game))
 * [The Digital Antiquarian](https://www.filfre.net/2013/04/infidel/)
@@ -12,24 +12,32 @@ Further information on Infidel:
 * [The Infocom Gallery](http://gallery.guetech.org/infidel/infidel.html)
 * [IFWiki](http://www.ifwiki.org/index.php/Infidel)
 
-The following source material is available for importation. Release 22 (mac) was selected from the Zarf Sources.
+## Resources
 
-## Historical Releases
+* [Infidel on The Obsessively Complete Infocom Catalog](https://eblong.com/infocom/#infidel)
+* [Infidel on Historical Source (GitHub)](https://github.com/historicalsource/infidel)
+* [Infocom Fact Sheet](http://pdd.if-legends.org/infocom/fact-sheet.txt)
 
-These contain the available source material.
+## Version History
 
-| Release | Serial | Story File            | Zarf Sources  | Jason Scott Sources |
-| -------:|:------:|:---------------------:|:-------------:|:-------------------:|
-|      22 | 830916 |      [r22-s830916-z3] |     [r22-zip] |       [revision-22] |
-|      22 | 840522 |  [mac-r22-s840522.z3] | [mac-r22-zip] |                     |
-|         |        |                       |  [rlater-zip] |    [final-revision] |
+| Release | Serial | Story File                   | Zarf Sources                  | Historical Sources |
+| -------:|:------:|:----------------------------:|:-----------------------------:|:------------------:|
+|      22 | 830916 |     [infidel-r22-s830916.z3] |     [infidel-r22-s830916.zip] |      [revision 22] |
+|      22 | 840522 | [infidel-mac-r22-s840522.z3] | [infidel-mac-r22-s840522.zip] |                  - |
+|       - |      - |                            - |          [infidel-rlater.zip] |   [final revision] |
 
-[r22-s830916-z3]: https://eblong.com/infocom/gamefiles/infidel-r22-s830916.z3
-[r22-zip]: https://eblong.com/infocom/gamefiles/infidel-r22-s830916.z3
-[revision-22]: https://github.com/historicalsource/infidel/tree/fa9390b02cfc7a96281587b254b9239d2eed0659
+[infidel-r22-s830916.z3]: https://eblong.com/infocom/gamefiles/infidel-r22-s830916.z3
+[infidel-r22-s830916.zip]: https://eblong.com/infocom/sources/infidel-r22-s830916.zip
+[revision 22]: https://github.com/historicalsource/infidel/tree/fa9390b02cfc7a96281587b254b9239d2eed0659
 
-[mac-r22-s840522.z3]: https://eblong.com/infocom/gamefiles/infidel-mac-r22-s840522.z3
-[mac-r22-zip]: https://eblong.com/infocom/sources/infidel-mac-r22-s840522.zip
+[infidel-mac-r22-s840522.z3]: https://eblong.com/infocom/gamefiles/infidel-mac-r22-s840522.z3
+[infidel-mac-r22-s840522.zip]: https://eblong.com/infocom/sources/infidel-mac-r22-s840522.zip
 
-[rlater-zip]: https://eblong.com/infocom/sources/infidel-rlater.zip
-[final-revision]: https://github.com/historicalsource/infidel/tree/5f9e04460286703b00906482f35a5730f450eff1
+[infidel-rlater.zip]: https://eblong.com/infocom/sources/infidel-rlater.zip
+[final revision]: https://github.com/historicalsource/infidel/tree/5f9e04460286703b00906482f35a5730f450eff1
+
+## Future Development
+
+Version 22/840522 has been selected as the starting point for future development.
+
+Compilation issues are recorded [here](https://github.com/the-infocom-files/infidel/issues/2).
