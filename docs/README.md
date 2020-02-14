@@ -20,13 +20,11 @@ The following sources provide further information on Infidel:
 
 ## Version History
 
-Zarf's Obsessively Complete Infocom Catalog holds copies of the game files for every existing version of Infidel listed in the Infocom Fact Sheet. It also holds the source files for versions 22/830916, 22/840522 and a later, in progress, version.
-
-| Release | Serial | Story File                   | Zarf Sources                  | Historical Sources |
-| -------:|:------:|:----------------------------:|:-----------------------------:|:------------------:|
-|      22 | 830916 |     [infidel-r22-s830916.z3] |     [infidel-r22-s830916.zip] |      [revision 22] |
-|      22 | 840522 | [infidel-mac-r22-s840522.z3] | [infidel-mac-r22-s840522.zip] |                  - |
-|       - |      - |                            - |          [infidel-rlater.zip] |   [final revision] |
+| Release | Serial | Type | Story File                   | Obsessive Sources             | Historical Sources |
+| -------:|:------:|:----:|:----------------------------:|:-----------------------------:|:------------------:|
+|      22 | 830916 |  PUB |     [infidel-r22-s830916.z3] |     [infidel-r22-s830916.zip] |      [revision 22] |
+|      22 | 840522 |  PUB | [infidel-mac-r22-s840522.z3] | [infidel-mac-r22-s840522.zip] |                  - |
+|       - |      - |  WIP |                            - |          [infidel-rlater.zip] |   [final revision] |
 
 [infidel-r22-s830916.z3]: https://eblong.com/infocom/gamefiles/infidel-r22-s830916.z3
 [infidel-r22-s830916.zip]: https://eblong.com/infocom/sources/infidel-r22-s830916.zip
